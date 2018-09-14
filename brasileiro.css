@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bandeira {
+	position: absolute;
+	top: 0px;
+	padding-left: 480px;
+	z-index: 1;
+	
+}
+
+#bd {
+	height: 135px;
+	width: 130px;	
+	
+}
+
+main {
+	padding-left:  451px;
+	padding-right: 450px;
+}
+
+.head {
+	background-color: darkgreen;
+	height: 140px;
+}
+
+.head ol {
+	text-align: center;
+	padding-top: 70px;
+	font-size: 22px;
+	color: white;
+}
+
+#tr:hover{
+	background-color:#E7E7E7;	
+}
