@@ -21,7 +21,7 @@
 		}
 	}
 	
-$url = ('http://jsuol.com.br/c/monaco/utils/gestor/commons.js?file=commons.uol.com.br/sistemas/esporte/modalidades/futebol/campeonatos/dados/2018/30/dados.json');
+$url = ('http://jsuol.com.br/c/monaco/utils/gestor/commons.js?file=commons.uol.com.br/sistemas/esporte/modalidades/futebol/campeonatos/dados/2020/30/dados.json');
 
 $content = http_build_query(array());
 
@@ -45,14 +45,14 @@ foreach ($conteudo['equipes'] as $value){
 	
 	}
 	
-$liberta1 = substr($conteudo ['fases']['2700']['faixas-classificacao']['classifica1']['faixa'], 0, 1);
-$liberta2 = substr($conteudo ['fases']['2700']['faixas-classificacao']['classifica1']['faixa'], 2, 4);
+$liberta1 = substr($conteudo ['fases']['3062']['faixas-classificacao']['classifica1']['faixa'], 0, 1);
+$liberta2 = substr($conteudo ['fases']['3062']['faixas-classificacao']['classifica1']['faixa'], 2, 4);
 
-$sulame1 = substr($conteudo ['fases']['2700']['faixas-classificacao']['classifica2']['faixa'], 0, 1);
-$sulame2 = substr($conteudo ['fases']['2700']['faixas-classificacao']['classifica2']['faixa'], 2, 4);
+$sulame1 = substr($conteudo ['fases']['3062']['faixas-classificacao']['classifica2']['faixa'], 0, 1);
+$sulame2 = substr($conteudo ['fases']['3062']['faixas-classificacao']['classifica2']['faixa'], 2, 4);
 
-$rebaixa1 = substr($conteudo ['fases']['2700']['faixas-classificacao']['classifica3']['faixa'], 0, 2);
-$rebaixa2 = substr($conteudo ['fases']['2700']['faixas-classificacao']['classifica3']['faixa'], 3, 5);
+$rebaixa1 = substr($conteudo ['fases']['3062']['faixas-classificacao']['classifica3']['faixa'], 0, 2);
+$rebaixa2 = substr($conteudo ['fases']['3062']['faixas-classificacao']['classifica3']['faixa'], 3, 5);
 
 		?>
         
@@ -82,7 +82,7 @@ $rebaixa2 = substr($conteudo ['fases']['2700']['faixas-classificacao']['classifi
 				
 					$count = 0;
 
-					foreach ($conteudo ['fases']['2700']['classificacao']['equipe'] as $idclass){
+					foreach ($conteudo ['fases']['3062']['classificacao']['equipe'] as $idclass){
 						
 						$count++;
 						
